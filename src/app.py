@@ -3,7 +3,13 @@ import os
 
 
 def palindrome(s):
-    # your code goes here
+    text = list(s)
+    text = reversed(text)
+    string = ""
+    string = string.join(text)
+    return (string == s)
+    
+
 
 def solution(s):
     return palindrome(s)
